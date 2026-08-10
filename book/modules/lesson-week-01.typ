@@ -14,7 +14,7 @@ The first week is about:
 
 
 // Explain a bit about not using full DeXABAR
-// Emphasize students need to be told that the DAR processes is not linear. They may revisit definitions and assumptions after they try writing down relationships, etc.
+// Emphasize students need to be told that the DAR process is not linear. They may revisit definitions and assumptions after they try writing down relationships, etc.
 
 // Do active learning introduction
 // Emphasize simulation focus -- talk about why we chose Excel rather than another programming language.

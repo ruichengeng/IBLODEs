@@ -29,33 +29,33 @@
   include "modules/guide-intro.typ"
 }
 
-// #{
-//   module(title: [Modelling], label: <mod:modelling>)[
-//     #include "modules/module-01-body.typ"
-//   ]
-//   include "modules/module-01-exercises.typ"
-// }
+#{
+  module(title: [Modelling], label: <mod:modelling>)[
+    #include "modules/module-01-body.typ"
+  ]
+  include "modules/module-01-exercises.typ"
+}
 
-// #{
-//   module(title: [Simulation], label: <mod:simulation>)[
-//     #include "modules/module-02-body.typ"
-//   ]
-//   include "modules/module-02-exercises.typ"
-// }
+#{
+  module(title: [Simulation], label: <mod:simulation>)[
+    #include "modules/module-02-body.typ"
+  ]
+  include "modules/module-02-exercises.typ"
+}
 
-// #{
-//   module(title: [Systems and Models with Interacting Terms], label: <mod:systems>)[
-//     #include "modules/module-03-body.typ"
-//   ]
-//   include "modules/module-03-exercises.typ"
-// }
+#{
+  module(title: [Systems and Models with Interacting Terms], label: <mod:systems>)[
+    #include "modules/module-03-body.typ"
+  ]
+  include "modules/module-03-exercises.typ"
+}
 
-// #{
-//   module(title: [Equilibrium and Long-Term Behaviour], label: <mod:equilibrium>)[
-//     #include "modules/module-04-body.typ"
-//   ]
-//   include "modules/module-04-exercises.typ"
-// }
+#{
+  module(title: [Equilibrium and Long-Term Behaviour], label: <mod:equilibrium>)[
+    #include "modules/module-04-body.typ"
+  ]
+  include "modules/module-04-exercises.typ"
+}
 
 // #{
 //   module(title: [Qualitative Analysis: Slope Fields and Phase Portraits])[
@@ -105,12 +105,12 @@
 //   include "modules/module-10-exercises.typ"
 // }
 
-// #{
-//   module(title: [Introduction to Boundary Value Problems], label: <mod:boundary_value_problems>)[
-//     #include "modules/module-11-body.typ"
-//   ]
-//   include "modules/module-11-exercises.typ"
-// }
+#{
+  module(title: [Introduction to Boundary Value Problems], label: <mod:boundary_value_problems>)[
+    #include "modules/module-11-body.typ"
+  ]
+  include "modules/module-11-exercises.typ"
+}
 
 // #{
 //   module(
@@ -122,11 +122,11 @@
 //   include "modules/module-12-exercises.typ"
 // }
 
-#{
-  module(title: [Famous ODEs], label: <mod:famous_odes>)[
-  ]
-  include "modules/famous_odes-exercises.typ"
-}
+// #{
+//   module(title: [Famous ODEs], label: <mod:famous_odes>)[
+//   ]
+//   include "modules/famous_odes-exercises.typ"
+// }
 
 #lessons_end()
 // Appendices Start Here

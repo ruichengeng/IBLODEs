@@ -521,7 +521,7 @@
         - $MM_1$: accuracy #sym.checkmark (by definition), explanatory #sym.checkmark (we can view
           this model as saying "the change in population is proportional to the current population",
           which directly relates to our original assumptions).
-        - $MM^*_1$: accuracy #sym.crossmark (matches $MM_1$ for a while), explanatory #sym.crossmark
+        - $MM^*_1$: accuracy #sym.checkmark (matches $MM_1$ for a while), explanatory #sym.crossmark
           (this model seemingly came out of nowhere).
         - $MM_infty$: accuracy #sym.crossmark (values aren't even close), explanatory #sym.checkmark
           (we can view this model as saying "the change in population is proportional to the current

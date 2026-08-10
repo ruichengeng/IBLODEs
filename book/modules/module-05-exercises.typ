@@ -148,7 +148,7 @@
         #solution[
           $(0,0)$ is unstable and not repelling. $(11,110)$ appears stable. It is hard to tell from
           the phase portrait whether it is attracting or very subtly repelling, but our analysis in
-          @ex:intro_to_phase_space shows that it stable (and not attracting).
+          @ex:intro_to_phase_space shows that it is stable (and not attracting).
         ]
       + #label_question_part(<ex:put_data_in_phase_portrait>) Copy and paste data from your
         simulation spreadsheet into the Desmos plot. Does the resulting curve fit with the picture?
@@ -810,7 +810,7 @@
           A tree near equilibrium when $b=b_5$ will eventually die. The fluctuations in leaf area
           and height get bigger and bigger until it has no leaves left and sinks forevermore.
 
-          A tree near equilibrium when $b=b_(12)$ stabilize in height and leaf area. The
+          A tree near equilibrium when $b=b_(12)$ stabilizes in height and leaf area. The
           fluctuations in leaf area and height get smaller and smaller and the tree lives forever.
         ]
     ]

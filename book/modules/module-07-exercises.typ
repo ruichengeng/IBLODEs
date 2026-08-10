@@ -434,7 +434,7 @@
         Make a recommendation about what value of $a$ they should target.
 
         #solution[
-          If $a <= -1/8$ then there will be an attracting equilibrium at $(P,U)$ with $U<10$. If
+          If $a < -1/8$ then there will be an attracting equilibrium at $(P,U)$ with $U<10$. If
           $P <= 2$ and $U <= 10$, this will ensure that the number of users never surpasses 10
           million. If $P > 2$, the number of users may temporarily surpass 10 million, but will
           eventually settle down to fewer than 10 million.

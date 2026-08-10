@@ -113,7 +113,7 @@ Consider a modified version of the Ants-and-Aphids model from @mod:systems. In t
 a farmer that removes ants at a constant rate (10 thousand per day).
 #let Pant = $P_"ant"$
 #let Paph = $P_"aphid"$
-#let F(Pant, Paph) = (Pant + 0.5 * Paph - 10, 0.8 * Pant - 0.5 * Paph)
+#let F(Pant, Paph) = (Pant + 0.5 * Paph - 10, 0.5 * Pant - 0.5 * Paph)
 $
   & Pant' & = & Pant         & + & 0.5 dot Paph space space & - & space 10 \
   & Paph' & = & 0.5 dot Pant & - & 0.5 dot Paph             &   &
@@ -200,7 +200,7 @@ $(Pant', Paph')$ is always tangent to the solution curve.
 
 #{
   let _Delta = 0.1
-  let steps = 24
+  let steps = 28
   let soln = solve_2d_ivp(F, (3, 21), steps, Delta: _Delta, method: "rk4")
   let xs = lq.arange(0, _Delta * (steps + 1), step: _Delta)
   let arrow_samples = soln.chunks(5).map(v => v.at(0))
@@ -271,7 +271,7 @@ to zero and another region where the ant population is unbounded.
     yaxis: (position: 0, tip: tiptoe.stealth, subticks: none, label: $Paph$),
     lq.fill-between(
       (-1, 20),
-      // Line is y = 2/(3+sqrt(13)) * (x - 8.7)
+      // Line is y = -2/(3+sqrt(13)) * (x - 8.7)
       (32, -37),
       y2: (-37, -37),
       fill: green.darken(30%).transparentize(60%),
