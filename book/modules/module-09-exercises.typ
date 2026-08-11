@@ -67,11 +67,10 @@
           Zooming in to the equilibrium at $(0, 0)$ we guess it is _unstable and not repelling_:
           some trajectories move away from it in one direction while approaching along another.
 
-          The other equilibrium (at $(100 / (9 b), 1000 / (27 b^2))$) appears _attracting_ for
-          $b approx 0$ and repelling when $b approx 2$.
+          The other equilibrium (at $(100 / 9 b, 1000 / 27 b^2)$) appears _repelling_ for $b approx 0$ and _attracting_ for $b approx 2$.
 
-          Except for when $b=0$ and there is only one equilibrium, it appears the stability of
-          $(0,0)$ is not affected by $b$ but the stability of $(100 / (9 b), 1000 / (27 b^2))$ is.
+          Except for when $b=0$ (and there is only one equilibrium), it appears the stability of
+          $(0,0)$ is not affected by $b$ but the stability of $(100 / 9 b, 1000 / 27 b^2)$ is.
         ]
       + Can you rewrite the system in matrix/affine form? Why or why not?
         #solution[
@@ -508,7 +507,7 @@
           $
           And so the linearized system is
           $
-            mat(H'_"approx"; A'_"approx") = mat(-b, 0.3; -20 / (3 b), 1) (mat(H_"approx"; A_"approx") - arrow(E)  //mat(100 / (9 b); 1000 / (27 b^2))
+            mat(H'_"approx"; A'_"approx") = mat(-b, 0.3; -20 / 3 b, 1) (mat(H_"approx"; A_"approx") - arrow(E)  //mat(100 / 9 b; 1000 / 27 b^2)
             ).
           $
         ]

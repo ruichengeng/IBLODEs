@@ -32,7 +32,21 @@
       #align(
         center,
         block(breakable: false)[
-          #image("../images/slope-field-3d.png", width: 2in)
+          // #image("../images/slope-field-3d.png", width: 2in)
+
+          #let F(x, y) = ((0.01 * y - 1.1) * x, (1.1 - 0.1 * x) * y)
+
+          #slope_field_3d(
+            (x, y, z) => (..F(x, y), 1),
+            xlim: (0, 30),
+            ylim: (0, 300),
+            zlim: (0, 1.55),
+            spacing: (3.333333, 33.333333, 0.3775),
+            width: 1.7in,
+            segment_length: 0.66,
+            shade: 0.7,
+            view_direction: (0.491, -0.699, 0.520),
+          )
 
           #v(-7pt)
           #link("https://www.desmos.com/3d/kvyztvmp0g")
@@ -63,7 +77,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question({
@@ -148,7 +161,7 @@
         #solution[
           $(0,0)$ is unstable and not repelling. $(11,110)$ appears stable. It is hard to tell from
           the phase portrait whether it is attracting or very subtly repelling, but our analysis in
-          @ex:intro_to_phase_space shows that it stable (and not attracting).
+          @ex:intro_to_phase_space shows that it is stable (and not attracting).
         ]
       + #label_question_part(<ex:put_data_in_phase_portrait>) Copy and paste data from your
         simulation spreadsheet into the Desmos plot. Does the resulting curve fit with the picture?
@@ -160,7 +173,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question(label: <ex:exploring_equilibria>, {
@@ -363,7 +375,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question({
     learning_objectives(
@@ -518,7 +529,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question(label: <ex:tree_modelling_with_spreadsheet>, {
     learning_objectives(
@@ -648,7 +658,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question({
     learning_objectives(
@@ -724,7 +733,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question({
@@ -810,7 +818,7 @@
           A tree near equilibrium when $b=b_5$ will eventually die. The fluctuations in leaf area
           and height get bigger and bigger until it has no leaves left and sinks forevermore.
 
-          A tree near equilibrium when $b=b_(12)$ stabilize in height and leaf area. The
+          A tree near equilibrium when $b=b_(12)$ stabilizes in height and leaf area. The
           fluctuations in leaf area and height get smaller and smaller and the tree lives forever.
         ]
     ]

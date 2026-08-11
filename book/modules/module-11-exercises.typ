@@ -273,7 +273,7 @@
 
           + $x(pi) = 1$: No solution (simulation always returns $-1$).
           + $x(pi) = -1$: Infinitely many solutions (every choice of $x'(0)$ works).
-          + $x(pi/2) = 1$: Exactly one solution ($x'(0) = -1$).
+          + $x(pi/2) = 1$: Exactly one solution ($x'(0) = 1$).
         ]
       + Can you find analytic arguments to justify your conclusions?
 
