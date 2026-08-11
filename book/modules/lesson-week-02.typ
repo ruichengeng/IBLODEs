@@ -58,3 +58,17 @@ working simulation in under five minutes. Say this number out loud.
 Run a short spreadsheet/modelling quiz after this week, and an Euler's method group quiz before
 Week 3. Simulating a system in Week 3 goes dramatically better when students have already been held
 accountable for simulating a single equation.
+
+=== How other texts frame this
+
+No other text asks students to build Euler's method; all of them present it, and most present it
+_after_ the analytic techniques. Lebl labels the section "1 lecture, can safely be skipped"; Trench
+opens with "Euler's method... is so crude that it is seldom used in practice." Our course is built
+the other way round, and it is worth knowing that this is the minority position.
+
+Where the other texts are ahead of us is *error*. The standard treatment is a halving table---run
+$Delta$, $Delta slash 2$, $Delta slash 4$, tabulate the error, and observe that it halves each
+time, so Euler is a first-order method. Lebl, Trench and Blanchard all do this, and Lebl adds a
+second table in which Euler cheerfully returns numbers past the point where the solution blows up.
+Either makes a good homework problem or tutorial, and neither displaces our over/under-estimate
+question.

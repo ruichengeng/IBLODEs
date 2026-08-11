@@ -61,3 +61,25 @@ independent variable, and students do not naturally interpret it.
 - When solving via eigenvalues, let students use a computer, and steer them to eigenvectors
   normalized so the first coordinate is $1$. Point out as a class that only the first coordinate of
   the general solution is needed---this halves the work.
+
+=== How other texts frame this
+
+Three routes exist through higher-order equations, and we should be clear which one we are on.
+
++ *Second order first, as its own theory* (Zill, Boyce, Trench, Lebl): characteristic equations,
+  undetermined coefficients, variation of parameters---a chapter of methods to memorize---and
+  systems arrive later, sometimes solved by _elimination back into_ a higher-order equation.
++ *Systems first, second order as a special case* (Blanchard, Judson, and us): set $y = x'$ and
+  reuse everything. This is now well established, not idiosyncratic, though it is still the
+  minority in syllabi.
++ *Neither*: Trench reduces $x'' = F(x, x')$ to the first-order equation $v (d v slash d x) =
+  F(x, v)$ in the "Poincaré phase plane", getting phase portraits for second-order equations
+  without eigenvalues at all.
+
+Route 2 is what makes our claim in the notes above true---because there is no new method, doing
+these problems is evidence of understanding. It is worth saying that out loud to students who have
+a friend in a traditional course and feel they are missing content: they are not being shown less,
+they are being asked to reuse more.
+
+The vertical-axis difficulty is ours to solve; no text treats it, which is why the last exercise
+exists.

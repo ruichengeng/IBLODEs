@@ -50,3 +50,17 @@ pendulum is proportional to $sqrt(L slash g)$, which follows from the Buckingham
 Comparing the non-linear and linearized phase portraits side by side, and asking what the different
 families of trajectories mean physically (swinging versus going over the top), is a good place to
 end the course.
+
+=== How other texts frame this
+
+The pendulum is the standard closing example---Lebl, Boyce and Trench all end their qualitative
+material with it, and all three land on the same reading of the picture that we do. If you want a
+worked reference while preparing, Lebl's is the most direct: the critical points are at
+$omega = 0$ and $theta$ a multiple of $pi$, alternating between stable centres (hanging down) and
+saddles (balanced on top), with the separatrix dividing swinging from going over the top. Trench
+does the *damped* pendulum in the same picture, which is a good extension if a group finishes early.
+
+The catenary has no counterpart in any of these books. If you want a second extended modelling
+problem in reserve, the ones that recur elsewhere are competing species (Blanchard, Boyce, Judson),
+the SIR epidemic model (Blanchard, Judson) and the Van der Pol oscillator---all of which the class
+now has the tools for.

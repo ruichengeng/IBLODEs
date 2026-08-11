@@ -74,3 +74,22 @@ are conceptually the same but much messier.
 - For real eigenvalues, whether the signs agree is what matters. Graph $lambda$ as a function of $b$;
   an algebraic proof will be lost on the class.
 - Finish by saying what the analysis means for *trees*, not just for eigenvalues.
+
+=== How other texts frame this
+
+*The $b = 1$ trap is a documented, expected case, not bad luck.* Boyce's summary table of when
+linearization decides has exactly two rows where it does not, and one of them is ours: purely
+imaginary eigenvalues, where the linear system is a centre and the nonlinear system is listed as
+"centre or spiral point --- Indeterminate". Lebl devotes a subsection to it titled "The trouble with
+centers", with worked examples in which the same linearized centre turns out to be a centre, a
+spiral sink and a spiral source. If a student asks _why_ this case and no other, Boyce has the
+answer, and it is one you can say in a sentence: a centre is destroyed by an arbitrarily small
+change to the coefficients---nudge the eigenvalues off the imaginary axis and the ellipses become
+spirals---so the discarded nonlinear terms are exactly big enough to matter. (The "methods outside
+this course" that settle it are centre manifold theory; Wiggins devotes a chapter to it.)
+
+*Bifurcation.* Sweeping $b$ from 0 to 2 and watching equilibria collide and change stability is a
+bifurcation study, and elsewhere it is not an advanced topic: Blanchard and Judson both put
+bifurcations and bifurcation diagrams in their *first-order* chapters, alongside the phase line.
+We run one here without naming it. Either naming it in the wrap-up, or deciding aloud not to, is
+better than leaving it unsaid---students who take another course will recognize the picture.

@@ -53,3 +53,28 @@ satisfy a matrix system; classify that.
 
 The final exercise---inferring parameter values and initial conditions from claims people make about
 the model---is a good one but *can be skipped* if time is short.
+
+=== How other texts frame this
+
+This is the week where we depart most sharply from everyone else, and it is worth knowing in which
+direction.
+
+*Nobody else treats affine systems this way.* Zill, Lebl, Boyce and Trench all file
+$arrow(r)' = A arrow(r) + arrow(b)$ under _nonhomogeneous systems_ and attack it with undetermined
+coefficients, variation of parameters or diagonalization---machinery built for a general forcing
+term $arrow(f)(t)$, in which a constant $arrow(b)$ is an unremarkable special case. The particular
+solution they compute _is_ the equilibrium, but no text says so, and no picture is drawn. Blanchard
+and Judson skip nonhomogeneous systems entirely.
+
+*But the substitution itself is completely standard---one chapter later.* Blanchard, Boyce, Lebl
+and Wiggins all introduce $arrow(u) = arrow(r) - arrow(E)$ when they linearize a nonlinear system,
+and give our motivation for it. Blanchard: "Linear systems always have an equilibrium point at the
+origin. Hence the first step... is to move the equilibrium point to the origin via a change of
+variables." Boyce: "This involves no loss of generality." Wiggins runs the general version,
+$arrow(x) = arrow(y) + arrow(x)(t)$ about _any_ solution, as the organizing device for his whole
+book.
+
+So what we are really doing this week is teaching the Week 9 move early, on a case where students
+can verify it by hand. That is worth saying to yourself when the hour disappears: the algebra they
+grind through here is the algebra that makes linearization feel inevitable in Week 9, and they will
+see it a second time.

@@ -62,3 +62,22 @@ disagreed.)
   the payoff.
 - Phase space is students' first chance to practice *reading a definition on their own*. Name that
   skill when you assign it.
+
+=== How other texts frame this
+
+Our *phase space* is standard: Wiggins opens his book with "the (vector) space of dependent
+variables is referred to as the phase space of the ODE", and Blanchard calls the $R F$-plane the
+phase plane. What is ours alone is *component space*---no text names the other picture, which is
+part of why students never learn to tell them apart.
+
+The technique the other texts have and we do not is *nullclines*: draw the curves
+$d x slash d t = 0$ and $d y slash d t = 0$, mark the vertical and horizontal crossings on them,
+and read off the sign of each derivative in the regions between. Judson and Blanchard both build
+their hand-drawn phase-plane work on it, and equilibria fall out as the intersections. We get the
+same information from simulation and the phase portrait instead. If a student arrives already
+knowing nullclines, that is compatible with everything we do---but do not introduce them here, or
+the phase-portrait payoff in Week 5 lands early and weakly.
+
+On the rates-versus-amounts confusion: Trench heads it off notationally, writing $P' = a(P) P$ and
+saying in words that $a$ is "the rate of change of population per unit time *per individual*."
+Saying "per individual" out loud costs nothing and is worth doing.

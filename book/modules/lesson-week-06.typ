@@ -55,3 +55,27 @@ it either.
 - Students will propose incompatible eigen solutions, e.g. $mat(e^t; 0)$ and $mat(e^(-t); 0)$. Both
   are fine answers; they just can't both come from the same matrix. Say so and pick one.
 - The phase-portrait exercises here should be drawn *by hand*, not generated in Desmos.
+
+=== How other texts frame this
+
+Worth knowing when the hard justification eats your hour: *it is the right hard thing, and one
+major text agrees.* Blanchard--Devaney--Hall's section is titled "Straight-Line Solutions" and
+opens by rejecting the algebraic route---"the guess-and-test method is unsatisfying because it does
+not give us any understanding of where the formulas came from in the first place. In this section
+we use the *geometry of the vector field* to find special solutions." Students look at the
+direction field, notice the two special lines through the origin, and are then led to "we seek
+vectors $arrow(v)$ such that $A arrow(v)$ points in the same or the opposite direction as
+$arrow(v)$", i.e. $A arrow(v) = lambda arrow(v)$. The eigenvalue equation is _derived from the
+picture_, and the sign of $lambda$ is read off as toward-or-away before any characteristic
+polynomial appears. Lebl has the same argument, but afterwards, to explain a picture the algebra
+already produced.
+
+The other four texts (Zill, Boyce, Trench, Wiggins) substitute $arrow(r) = arrow(v) e^(lambda t)$,
+cancel, and take determinants. If a student asks why we are doing it the slow way, that is the
+honest answer: the fast way gives the formula and not the reason.
+
+Two smaller alignments. Boyce and Trench both use the Wronskian for independence, so a student may
+raise it---our plug-in-a-value-of-$t$ check is sufficient here and we are not obliged to justify
+avoiding it. And most texts organize the classification via the *trace--determinant plane*, which
+we skip in favour of the signs of the two eigenvalues; a student who has met it is not doing
+anything wrong.

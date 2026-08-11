@@ -54,3 +54,21 @@ The shampoo exercise then derives the stability classification for complex eigen
 needs some lecturing: name the eigenvectors $arrow(v)_1, arrow(v)_2$ rather than computing them, and
 study the $e^(lambda t)$ factors. Tell students whether you expect them to reproduce this derivation
 on a test. The final practice exercise *can be skipped*.
+
+=== How other texts frame this
+
+Every other text takes real and imaginary parts. Worth knowing, though, that the "trick" is not
+really a trick anywhere: it is the _summary_ of our argument. Zill derives his real solutions by
+forming exactly our two combinations---$1/2 (arrow(s)_1 + arrow(s)_2)$ and
+$(i slash 2)(-arrow(s)_1 + arrow(s)_2)$---expanding with Euler's formula, and only then observing
+that the results are $"Re"(arrow(v))$ and $"Im"(arrow(v))$ and stating that as the theorem students
+use. Blanchard proves the real/imaginary-parts theorem from linearity. So we are stopping one step
+short of where the standard texts stop, and keeping the reasoning as the method.
+
+That is a useful thing to tell the class at the wrap-up: the rule they will meet in other books is
+a shortcut for what they just did, and now they know why it works.
+
+Blanchard also has the cleanest one-line motivation for the whole week, if the class asks why
+complex numbers have to appear at all: "We cannot use the geometric ideas of the previous sections
+to find solution curves that are straight lines *because there aren't any straight-line
+solutions*."

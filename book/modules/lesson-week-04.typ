@@ -57,3 +57,26 @@ vertical axis.
 - Save the table of which classifications can co-occur for the sketching exercise, where students
   build it from their own examples. Then tell them not to memorize it.
 - "Stable but not attracting" is the example they will not produce on their own.
+
+=== How other texts frame this
+
+Two of our choices here are the minority position, and one is not.
+
+*1-d first.* Every other text does the 1-d case first and the plane later---Zill, Lebl, Blanchard,
+Judson, Boyce and Trench without exception. Our reason for inverting it (a line looks degenerate,
+a plane looks familiar) is a pedagogical bet, not a standard practice. But we are in good company
+on the *drawing*: Zill, Lebl and Blanchard all draw the phase line vertically, and Lebl gives our
+reason---"since $x$ is the dependent variable we draw the axis vertically, as it appears in the
+slope field diagrams."
+
+*Constant solution first.* Lebl ("we call these constant solutions the equilibrium solutions"),
+Blanchard and Trench define it as we do; Judson and Wiggins define it by setting the derivatives to
+zero. Most texts also carry the term *critical point* for the corresponding point in phase space.
+Students who have read ahead will have met it; it is a useful word, but it names the dot, not the
+solution.
+
+*Stable but not attracting.* This is not an exotic case elsewhere. Boyce's Theorem 9.3.1 lists
+"stable, but not asymptotically stable, if $r_1$ and $r_2$ are pure imaginary" as one of three
+outcomes, and Wiggins explains why the conjunction is not redundant: there are solutions that do
+converge, but make large excursions on the way. If you want a ready example, a centre---the
+undamped oscillator---is the one every text uses.

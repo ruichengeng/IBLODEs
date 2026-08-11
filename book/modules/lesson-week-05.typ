@@ -53,3 +53,23 @@ need analytic tools*, because staring at a phase portrait cannot settle stabilit
 
 Also worth landing: overlaying simulated data on a phase portrait is a way to *check a simulation*.
 If the curve doesn't follow the arrows, the spreadsheet is wrong.
+
+=== How other texts frame this
+
+*Our narrow definition of "phase portrait" is genuinely ours.* Zill, Lebl, Blanchard, Judson and
+Boyce all use the term for a plot of *trajectories*. Expect students who look things up to hit
+this, and expect it in anything they read next year. Say the definition is a local convention and
+say why: we want a name for the object that shows all solutions at once, before any solution has
+been drawn.
+
+Blanchard supplies the vocabulary we are missing for the arrow-length standard. He distinguishes a
+*vector field* (arrows drawn at their true lengths) from a *direction field* (all arrows scaled to
+the same short length, so they don't overlap). What we call a phase portrait is his vector field,
+and "arrow lengths short near equilibria" is precisely the demand that students not silently draw
+a direction field. Naming the two pictures makes the standard sound principled rather than fussy.
+
+Trench states the mathematics behind the traffic-map analogy, and it is worth having in your head
+even if you don't say it: if $y(t)$ is a solution then so is $y(t - tau)$, and *the two have the
+same trajectory*; conversely, two solutions with the same trajectory differ only by a time shift.
+That is what "we gave up seeing time" buys---every time-translate of a solution collapses onto one
+curve, which is why finitely many curves can stand for all solutions.

@@ -32,7 +32,21 @@
       #align(
         center,
         block(breakable: false)[
-          #image("../images/slope-field-3d.png", width: 2in)
+          // #image("../images/slope-field-3d.png", width: 2in)
+
+          #let F(x, y) = ((0.01 * y - 1.1) * x, (1.1 - 0.1 * x) * y)
+
+          #slope_field_3d(
+            (x, y, z) => (..F(x, y), 1),
+            xlim: (0, 30),
+            ylim: (0, 300),
+            zlim: (0, 1.55),
+            spacing: (3.333333, 33.333333, 0.3775),
+            width: 1.7in,
+            segment_length: 0.66,
+            shade: 0.7,
+            view_direction: (0.491, -0.699, 0.520),
+          )
 
           #v(-7pt)
           #link("https://www.desmos.com/3d/kvyztvmp0g")
@@ -63,7 +77,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question({
@@ -160,7 +173,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question(label: <ex:exploring_equilibria>, {
@@ -363,7 +375,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question({
     learning_objectives(
@@ -518,7 +529,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question(label: <ex:tree_modelling_with_spreadsheet>, {
     learning_objectives(
@@ -648,7 +658,6 @@
     ]
   })
 
-
   book_only(pagebreak())
   question({
     learning_objectives(
@@ -724,7 +733,6 @@
 
     ]
   })
-
 
   book_only(pagebreak())
   question({

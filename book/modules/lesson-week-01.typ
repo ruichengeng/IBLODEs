@@ -91,3 +91,20 @@ than giving it as one long block.
 Both this week and next end with an open *modelling hour*: a modelling exercise sized to fill
 whatever time remains, with the unused parts assigned as homework. Plan the earlier exercises
 carefully and let the last one absorb the slack.
+
+=== How other texts frame this
+
+Every ODE text that gives a modelling framework at all lists *assumptions before definitions*.
+Blanchard--Devaney--Hall is closest to ours: state the assumptions, then "completely describe the
+variables and parameters", then derive the equations---DAR with the first two steps swapped. Zill
+pairs "identify the variables" with "make a set of reasonable assumptions"; Boyce--DiPrima gives
+construct / analyse / compare-with-data. Two things none of them do, and we do: ask for the
+definitions _first_, and warn that the process is not linear.
+
+Two lines worth stealing. Blanchard: "we must avoid _hidden assumptions_ that make the model seem
+mysterious or magical," and, on the definitions step, "leaving this step out is like deciding you
+will speak your own language without telling anyone what the words mean."
+
+Also worth knowing what we are pushing back on: Trench states that a good model must be "sufficiently
+simple so that the mathematical problem can be *solved*." Dropping solvability as a modelling
+constraint is exactly what simulation buys us, and it is the reason Week 2 exists.

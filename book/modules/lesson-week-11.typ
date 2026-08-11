@@ -53,3 +53,25 @@ We only scratch the surface, and it is worth being honest with students about th
   methods have any hope. To a mathematician this is the _first_ question to ask about an equation.
   Students continuing to partial differential equations will meet boundary value problems of exactly
   this type when they see separation of variables.
+
+=== How other texts frame this
+
+*We are the outlier on placement, and it is worth being deliberate about it.* Every other text
+states an existence and uniqueness theorem in its first weeks: Zill in §1.2, Boyce in §2.8, Trench
+in §2.3, Judson in §1.6, Blanchard in §1.5 and again for systems in §2.6. Wiggins reaches it in
+chapter 1 and handles it the way we would like to---"the standard way of treating this in an ODE
+course is to 'prove a big theorem'... Rather than do that, we will consider some examples that
+illustrate the main issues"---but still in week 1. Our late, light treatment is a real choice, and
+students who have read another book will have met the theorem long before this.
+
+One consequence: the other texts get to _use_ uniqueness all term. Blanchard leans on it in the
+phase plane (solution curves cannot cross, so a closed trajectory traps everything inside it), and
+Trench states it as a numbered fact---"distinct trajectories can't intersect; if two trajectories
+intersect, they are identical". We rely on that same fact in Weeks 4--6 without naming it. If you
+want to strengthen this week cheaply, point back to where we already used it.
+
+*A free analogy we are not taking.* Boyce introduces two-point boundary value problems by comparing
+them to $A arrow(x) = arrow(b)$: when $A$ is invertible there is exactly one solution; when it is
+not, there is either no solution or infinitely many. Our students have just spent five weeks on
+$2 times 2$ matrices, so the no-solution/one/infinitely-many trichotomy is a structure they already
+own. Worth a sentence in the wrap-up.
