@@ -1,3 +1,56 @@
 // Have students work on the complex number appendix before this week
 
 // We take the linear combination approach, not the real/imag part approach to finding real solutions.
+
+== AI Draft
+
+=== Before the week
+
+Assign the _Complex Numbers_ appendix ahead of time. Students need complex arithmetic and Euler's formula to be
+_recall_, not discovery, or the week collapses. Almost none of them will have seen Euler's formula
+recently.
+
+=== The arc
+
+A new model (fleas and dogs) is built from premises, turned into affine form, and re-centred into a
+matrix system---all of which is now routine. What is new is that the eigenvalues come out complex.
+
+The three "general solution" exercises function as *one very long question*. Plan them as a unit and
+protect the time.
+
+=== Real solutions from complex ones
+
+We deliberately do *not* use the textbook trick of taking real and imaginary parts of a complex
+solution. Instead, students form the specific linear combinations $arrow(s)_1 + arrow(s)_2$ and
+$i (arrow(s)_1 - arrow(s)_2)$ and expand with Euler's formula.
+
+The trick is easier to memorize; the linear combinations are what we want students to understand.
+Every real solution we can build is a linear combination of the solutions we already have, and that
+idea carries forward. If a student asks whether those two combinations always work, the answer is
+"yes, unless the equation itself has complex coefficients"; the general recipe is to solve for
+constants $alpha, beta$ making $alpha arrow(s)_1 + beta arrow(s)_2$ real.
+
+Practical notes:
+
+- The expansions take a long time. Do *one* of them on the board and no more; don't wait for the
+  whole class to finish the algebra before moving to discussion.
+- Complex eigenvectors are where students slow to a crawl. Consider announcing partway through that
+  they may use a computer---but then say explicitly what your test expectations are, because a
+  computer will hand them a different (equally correct) eigenvector than the one the next exercise
+  uses.
+- Verifying a solution is real can be done geometrically: plot it on top of the phase portrait in
+  Desmos as a parametric curve. Essentially no student will think of this. Show them.
+- Two linearly independent eigen solutions is enough. Don't enumerate all of them.
+
+=== Landing the week
+
+Wrap up with the whole process written out: affine $arrow$ matrix, find a basis of eigen solutions,
+combine complex ones into real ones, translate back to the affine equation. The commentary that
+matters is that the matrix equation has *no* real eigen solutions at all---complex numbers are what
+let us keep using eigen methods---but that only the real solutions mean anything about fleas and
+dogs.
+
+The shampoo exercise then derives the stability classification for complex eigenvalues. This part
+needs some lecturing: name the eigenvectors $arrow(v)_1, arrow(v)_2$ rather than computing them, and
+study the $e^(lambda t)$ factors. Tell students whether you expect them to reproduce this derivation
+on a test. The final practice exercise *can be skipped*.

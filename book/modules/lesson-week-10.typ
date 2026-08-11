@@ -5,3 +5,59 @@
 // Not using a "memorize new method" approach to higher order means that we get to see if a student actually understands!
 
 // Ex @ex:higher_order_to_system_details gives a desmos link with Euler's built in. Explain why now.
+
+== AI Draft
+
+=== Start with linearization practice
+
+The week opens with a linearization exercise that has no model and no parameter---just the
+technique. After the tree model, students need to see the process without the surrounding
+complexity. *Don't skip it* if last week felt shaky; going slower here is worth it this late in the
+term. Use the discussion to summarize the whole linearization procedure.
+
+=== Higher-order equations: the approach
+
+We do not teach a new solution method for higher-order equations. The approach is:
+
++ Model with a second-order equation (spring: Hooke's law plus Newton's second law).
++ Extend Euler's method by hand to handle a second derivative.
++ Introduce $y = x'$ and rewrite the equation as a first-order system.
++ Apply everything we already know: simulation, phase portraits, eigen methods, linearization.
+
+The reason for this route is worth stating to yourself as well as to them: because there is no new
+method to memorize, a student who can do these problems has actually understood the systems
+material. That is also why the wrap-up matters---put the modified-Euler spreadsheet and the
+system-based spreadsheet side by side and show the numbers are *identical*, the system version just
+having one extra column.
+
+- Some students (usually physics students) will propose using the just-updated $x_(n+1)$ when
+  computing $x'_(n+1)$. This is more stable, but stay with the naive extension, because that is what
+  matches the first-order system.
+- Students turned off by "laws of physics" should be reminded that laws are just premises with a
+  fancier name.
+
+=== Spreadsheets, again
+
+This is the first spreadsheet students have built from scratch since the tree model in Week 5, and
+they will be rusty. Budget for it. If you want them fluent at this point in the term, spreadsheet
+practice needs to be happening in tutorials in the intervening weeks.
+
+The culminating exercise gives a Desmos link with Euler's method *built in*. Tell students this is
+deliberate: they have demonstrated they can simulate on their own, so from here the tool is theirs
+to use for exploring faster. Announce that they should use that link and not the ones from earlier
+exercises.
+
+=== Reading phase portraits from higher-order equations
+
+This is the hard part of the week and the reason the last exercise exists. One axis is $x'$, not an
+independent variable, and students do not naturally interpret it.
+
+- A trajectory heading _downward_ in phase space can correspond to an _increasing_ solution of the
+  original equation. Make sure the meaning of the vertical axis comes up explicitly: above the
+  horizontal axis, $x' > 0$, so $x$ is increasing.
+- Equilibrium solutions of a higher-order equation are asked about for the first time. The
+  definition is unchanged (a constant solution); students may just need reminding that verifying a
+  proposed constant solution only requires substitution.
+- When solving via eigenvalues, let students use a computer, and steer them to eigenvectors
+  normalized so the first coordinate is $1$. Point out as a class that only the first coordinate of
+  the general solution is needed---this halves the work.
